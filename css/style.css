@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.game-bg{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#myCanvas{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.top-item{
+    position: fixed;
+    z-index: 3;
+}
+
+.plane-img{
+    position: fixed;
+    width: 0.71rem;
+    left: 0.26rem;
+    top: 0.26rem;
+}
+
+.star-img{
+    position: fixed;
+    width: 0.65rem;
+    left: 2.87rem;
+    top: 0.26rem;
+}
+
+.clock-img{
+    position: fixed;
+    width: 0.59rem;
+    left: 5.72rem;
+    top: 0.2rem;
+}
+
+.top-item span{
+    position: fixed;
+    display: block;
+    top: 0.36rem;
+    font-size: 0.4rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.plane-text{
+    left: 1.04rem;
+}
+
+.star-text{
+    left: 3.54rem;
+}
+
+.clock-text{
+    left: 6.34rem;
+}
+
+.playAgain{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 0.6rem;
+    font-weight: bold;
+    z-index: 2;
+}
